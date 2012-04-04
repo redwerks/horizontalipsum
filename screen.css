@@ -1,0 +1,136 @@
+@import url("http://fonts.googleapis.com/css?family=Lusitana:400,700|Cabin:400,700|Droid+Sans:400,700|Droid+Sans+Mono");
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	background: none repeat scroll 0% 0% transparent;
+	border: 0pt none;
+	font-size: 100%;
+	margin: 0pt;
+	outline: 0pt none;
+	padding: 0pt;
+	vertical-align: baseline;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+table {
+	font-size: inherit;
+}
+
+a:hover, a:active {
+	outline: medium none;
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, article.post #toc a {
+	color: #0645AD;
+}
+
+a:visited {
+	color: #0B0080;
+}
+
+a:active {
+	color: #FAA700;
+}
+
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+p {
+	margin: 1em 0;
+}
+
+ul {
+	margin-left: 15px;
+}
+
+pre, code {
+	background-color: #F7F7F7;
+	border: 1px solid #EBEBEB;
+	color: black;
+	font-family: "Droid Sans Mono", "Courier New", Monaco, monospace;
+	overflow-x: auto;
+}
+
+pre {
+	line-height: 1.3em;
+	padding: 1em;
+}
+
+body {
+	font-family: "Droid Sans", "Helvetica", "Arial", "Geneva", sans-serif;
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+
+h1 {
+     font-family: "Cabin", "Helvetica", "Arial", "Geneva", sans-serif;
+     font-size: 2em;
+}
+
+h2 {
+     border-bottom: 1px solid #ddd;
+     font-size: 1.5em;
+}
+
+h3 {
+     font-size: 1.35em;
+}
+
+h4 {
+     font-size: 1.2em;
+}
+
+h5 {
+     font-size: 1.1em;
+}
+
+h6 {
+     font-size: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+     margin-top: 0.75em;
+}
+
+h3 + p, h3 + p {
+     margin-top: 0.25em;
+}
+
+/* Each ipsum block is an <article> */
+article {
+	max-width: 620px;
+	margin: 0 auto;
+}
+article .content {
+	overflow: auto
+}
