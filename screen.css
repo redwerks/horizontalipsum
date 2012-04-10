@@ -126,6 +126,20 @@ h3 + p, h3 + p {
      margin-top: 0.25em;
 }
 
+nav, ul {
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	padding: 0 1em;
+}
+
 /* Each ipsum block is an <article> */
 article {
 	max-width: 620px;
