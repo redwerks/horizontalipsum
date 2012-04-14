@@ -138,9 +138,12 @@
 	</div>
 	<script src="jquery-1.7.2.min.js"></script>
 	<script src="lib/hpanelweb.js"></script>
+	<script src="scrollshadow/jquery-scrollshadow.js"></script>
 	<script>
 	jQuery( function( $ ) {
-		$( '#container' ).hpanelweb( 'article' );
+		$( '#container' )
+			.hpanelweb( 'article' )
+			.scrollshadow( 'article' );
 	} );
 	</script>
 </body>
