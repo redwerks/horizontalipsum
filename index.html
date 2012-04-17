@@ -142,7 +142,9 @@
 	<script>
 	jQuery( function( $ ) {
 		$( '#container' )
-			.hpanelweb( 'article' )
+			.hpanelweb( 'article', {
+				visibleSiblings: $( 'header' )
+			} )
 			.scrollshadow( 'article' );
 	} );
 	</script>
